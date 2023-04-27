@@ -156,3 +156,32 @@ footer{
     padding-inline: 5%;
     font-size: 1.05rem;
 }
+
+@media screen and (max-width:724px){
+    #Pricing{
+        display:block;
+    }
+    .card{
+        margin:1%;
+        width: 97.5%;
+        height: 200px;
+    }
+    .card p{
+        height: 50px;
+    }
+    .hero-image{
+        height:200px;
+    }
+    .nav-item{
+        margin: auto;
+    }
+    .Location{
+        padding-top: 0;
+        padding-inline:5px;
+    }
+    .Location ul{
+        padding-inline:0;
+    }
+
+
+}
