@@ -182,6 +182,17 @@ footer{
     .Location ul{
         padding-inline:0;
     }
+    .trainer-card{
+        width:auto;
+        margin:10px 10px;
+    }
+    .trainer-card p{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .trainer-image{
+        height: 200px;
+    }
 
 
 }
