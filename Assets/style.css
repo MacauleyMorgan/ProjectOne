@@ -186,6 +186,24 @@ table a{
     box-shadow: 0 0 2px 0;
 }
 
+.confirmation{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.return{
+    text-decoration: none;
+    background-color: #16db65;
+    padding: 10px;
+    color: #3C4A3E;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
 @media screen and (max-width:724px){
     #Pricing{
         display:block;
