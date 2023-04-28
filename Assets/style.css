@@ -24,6 +24,7 @@ header{
 
 #Title{
     text-shadow: 0px 0px 3px;
+    margin-left:20px;
 }
 
 .logo{
@@ -157,6 +158,34 @@ footer{
     font-size: 1.05rem;
 }
 
+.FAC{
+    width:75%;
+    text-align: justify;
+    margin-left:12.5%;
+}
+
+table{
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+td{
+    padding-top: 10px;
+}
+
+table a{
+    text-decoration: none;
+    background:#16db65;
+    border-radius: 3px;
+    padding: 5px;
+    color:#3C4A3E;
+    font-weight: 600;
+    box-shadow: 0 0 2px 0;
+}
+
 @media screen and (max-width:724px){
     #Pricing{
         display:block;
@@ -193,7 +222,11 @@ footer{
     .trainer-image{
         height: 200px;
     }
+    #Title{
+        margin-left: 20px;
+    }
 }
+
 
 @media screen and (max-width:610px){
     header{
@@ -222,12 +255,12 @@ footer{
     .Location h2{
         font-size: 1.8rem;
     }
-}
-
-@media screen and (max-width:470px){
     header{
         height: 150px;
     }
+}
+
+@media screen and (max-width:470px){
 
     .trainer-info{
     display:block;
