@@ -1,6 +1,8 @@
 /* General Styles */
 html{
     background-color:#3C4A3E;
+    font-family: 'Roboto', sans-serif;
+    
 }
 .uppercase {
 text-transform: uppercase;
@@ -63,7 +65,6 @@ margin-inline: 0.7rem;
 .hero-image{
     height: 500px;
     width:100%;
-    background: red;
 }
 
 #Pricing{
