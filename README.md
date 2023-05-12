@@ -1,23 +1,141 @@
 # ProjectOne
 
+Reason for website.
+Photo of mockup
+---
+# User Stories
+## - First Time Visitor
+        As a first time user I want to understand what the website is about and develop awareness of the gym and the classes threy offer.
+        As a first time user I want to be able to find my way through the website seamlessly to digest content.
+        As a first time user I want to display the website on any device and be eligible to read.
+        As a first time user I want toLearn more about the trainers and how they may meet my needs.
+## - Returning User
+        As a returning user, I want to keep up to date with new staff members and specialisations in the gym to ensure my needs are met.
+        As a returning user, I want to be able to contact the gym using a form to request to book sessions and see what sessions are offered
+        As a returning user, I want to see pricing information about memberships and what they may offer as part of the plans.
+## - Frequent User
+        As a frequent user, I want to check if any new classes have been added to sign up to the website
+        As a frequent user, I want to see if any trainers have joined or left the company and information about them
+        As a frequent user I want to be able to repeatedly use a form to request contact and sign  up to events and classes
+---
+# Features
+## Site wide
+### - Nav
+        This menu contains links to the various pages in the site. Such as the home page, meet the PT page and also find a class page to allow the user to navigate between content.
+### - Footer
+        The footer contains a simple message to inform the user that the site was created for educational purposes only.
+### - Favicon
+        The favicon will be displayed site wide and will contain the primary and secondary color of the website with the logo "CF" for the word CrossFit.
+        The favicon will allow the user to find the website with ease if they have multiple tabs open or are veiwing with a limited/smaller screen size.
+### - 404
+        The 404 page will be used to display a message that the page the user is looking for does not exist and allow them to navigate home.
+### - Color Scheme
+        The color scheme of the website is primarily green with grey and white aspects throughout. The hex codes used provide a 5.08 contrast when evaulated with the Wave accessibility tool when comparing the green and grey. A further comparison between grey and white shows a contrast of 8.97 and green and white, a value of 1.77, however these colors are not used to display text. 
+
+## Landing Page
+        
+### - Hero Image
+        The landing page of the website will encorporate a large hero image to grab the users attention, upon clicking this image they will be redirected to the find a class page as a call to action.
+### - Pricing Cards
+        The landing page will have pricing cards immediately visible and display information about what the level of membership entails.
+### - Find a gym
+        The landing page will also contain a white portion below the pricing cards to indicate that it can be scrolled down to reveal some more content which will display the locations of the company premises.
+### - Image Attribution
+        The landing page will show the hero image attribution in the footer for information and accreditation purposes.
+
+## Meet The PT Page
+### - Personal trainer information
+        The PT page will display a list of staff that work within the company as well as images and specialities they may have in the business to allow the user to identify which service best suits there needs.
+### - Image Attribution
+        Image attribution on the page are listed as the following.
+        - https://www.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_10421502.htm#&position=2&from_view=search
+        - https://www.freepik.com/free-photo/side-view-woman-drinking-water_29301556.htm#query=personal%20trainer&position=5&from_view=search&track=robertav1_2_sidr
+        - https://www.freepik.com/free-photo/sports-man-spend-time-morning-gym_6424731.htm#query=personal%20trainer&position=1&from_view=search&track=robertav1_2_sidr
+
+        These images were saved locally and resized to 300x300px for scaling and responsivity purposes.
+
+
+## Find a class page
+### - Class information table
+        The class information table will display a series of daily classes that the gym offers as service to its members along with times that the class is on. To request a place in the class the user is required to prive there information via the form below.
+### - Contact Form
+        The contact form will allow users to request bookings for classes. It requires a first name and an email address as inputs and will not allow the user to submit information that does not match this criteria. After completion if the form the page will redirect you to a new page created inside the website to confirm the data has been sent and a prompt to return to the home page.
+### - Form completion confirmation
+        The form completion page will thank the user for registering interest in one of the classes as a confirmation thier input has been recieved. After this it will display a link to go back to the home page.
+---
+# Existing Features
+        - Responsive design catered to 280px+
+        - Contact form and success page
+        - Existing personal trainer information
+        - Classes table
+# Features left to implement
+## - Ecommerce section
+        - As a future enhacement to the website an ecommerce section can be added and linked to the pricing cards section allowing the user to purchase memberships online and a login page to have a personal account. 
+        - Another future enhacement to the website could be added by creating a form that the user inputs a postcode into and then it is used to find the closest gym.
+---
+# Design
+## Wireframes
+### - Landing Page
+        ![Landing Page Wireframe](/assets/images/index.wireframe.png "Home page wireframe")
+        ![Landing Page Wireframe Breakpoint 1](/assets/images/index.wireframe.bp1.png "Home page wireframe breakpoint 1")
+        ![Landing Page Wireframe Breakpoint 2](/assets/images/index.wireframe.bp2.png "Home page wireframe breakpoint 2")
+### - Meet the PT Page
+        ![Meet the PT's Wireframe](/assets/images/meet.the.pts.wireframe.png "Meet the PT's Wireframe")
+        ![Meet the PT's Wireframe Breakpoint 1](/assets/images/meet.the.pts.wireframe.bp1.png "Meet the PT's Wireframe breakpoint 1")
+        ![Meet the PT's Wireframe Breakpoint 2](/assets/images/meet.the.pts.wireframe.bp2.png "Meet the PT's Wireframe breakpoint 2")
+### - Find a class page
+        ![Find a Class Wireframe](/assets/images/find.a.class.wireframe.png "Find a Class Wireframe")
+        ![Find a Class Wireframe Breakpoint 1](/assets/images/find.a.class.wireframe.bp1.png "Find a Class Wireframe breakpoint 1")
+        ![Find a Class Wireframe Breakpoint 2](/assets/images/find.a.class.wireframe.bp2.png "Find a Class Wireframe breakpoint 2")
+### - 404 Page
+
+### - Form confirmation
+
+---
+# Technology utilisation
+## - HTML
+        - HTML was the main language used to create the structural design of the website.
+## - CSS
+        - The website was styled using a collapsible style sheet (CSS) externally in the folder.
+## - Visual Studio Code
+        - The website was developed using the Visual Studio Code IDE.
+## - Github
+        - The source code for this website is hosted on Github.
+## - Git
+        - Git was utilised in unison with guthub to push and commit to the repository of the source code.
+## - Favicon.io
+        - This website was used to generate the favicon image then to download the image and use the file in the documents.
+## - balsamiq
+        - Balsamiq was used to create wireframes for the website and create ideas of structure to work from.
+--- 
+# Testing
+## Responsiveness
+### - Steps
+### - Expected
+###  - Actual
+---
+# Accessibility
+## - Wave extension
+
+# Functional Testing
+## - Navigation Links
+## - Form testing
+### Correct input
+#### - Steps
+#### - Expected
+#### - Actual
+### Incorrect input
+#### - Steps
+#### - Expected
+#### - Actual
+
+# Validation Testing
+## - HTML validator
+## - CSS Validator
+
+# Version Control
+
+# Credits
+## - Image Attribution
+
 Project for a crossfit gym made for educational purposes to complete milestone project one for Code Institute.
-
-The project should have an easily navigateable design to ensure that the user experience is available to keyboard navigators as well as mouse users.
-
-Landing page
-
-The user story on the landing page should grab the users attention and explain what the project is built for and this is why th hero image of the project is largely sized to grab the users attention. The hero image is also a clickable link to the Find a Class page as a call to action for the user.
-
-Pricing Cards
-
-The pricing cards on the landing page were created with clear context and allow for a user to see the pricing information of the company, these cards also overlap the hero image and the information below the image to suggest that the page can be scrolled to display more information. The cards are tabable and the prices are anchor tags to act as a link to a potential ecommerce section.
-
-The cards are then followed by a short description of the locations of the company premises to inform the user of the available locations in an unordered list.
-
-Meet the PT's
-
-This section is designed to allow the user to know the instructor teams on a more personal level and provide a short paragraph on specialities of the training team. This will add to the user experience as it will help them identify the correct trainer for their goals.
-
-Find a Class
-
-The Find a Class user story is designed to be a call to action for the user and displays the class information via table with clickable anchor tags that will redirect the user to a confirmation screen for the class (register.html). The table is then followed by a newsletter for the user to gain additional information via mailing list and this is linked to a form dump provided by Code Institute. The inputs inside the newsletter are coded to be a required feild for user input in order to display the form dump.
