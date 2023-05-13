@@ -150,6 +150,13 @@ The CSS files were placed into a CSS validator courtesy of W3 Schools and produc
 The website was coded inside visual studio code and pushed to the github repository "ProjectOne".
 
 The github desktop app was used in order to commit the files into the repository by adding the name of the commit followed by a short description of the change before pressing the "commit" buttonand pushing it to the repository.
+
+Adding it to Github Pages
+To create the live link for the site, github pages was used in the following way.
+Navigate to settings
+Click on the Pages tab
+Select the branch "main"
+This will generate the link to the live site when created.
 # Credits
 ## - Image Attribution
 
