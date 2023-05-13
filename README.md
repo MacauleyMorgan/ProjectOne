@@ -100,6 +100,7 @@ The form completion page will thank the user for registering interest in one of 
 Upon typing in an invalid link, a 404 page is returned by the website.
 ### - Form confirmation
 Upon completion of the form a confirmationscreen will be displayed allowing the user to recieve a confirmation that the input was recorded and the website has recieved a request to be contacted.
+
 ---
 # Technology utilisation
 ## - HTML
