@@ -331,7 +331,6 @@ table a{
     }
     .navigation a:hover{
         box-shadow: none;
-        border-radius: none;
     }
     footer{
         font-size: 0.6rem;;
