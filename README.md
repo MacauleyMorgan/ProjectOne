@@ -1,7 +1,7 @@
 # ProjectOne
 
-Reason for website.
-Photo of mockup
+Crossfit website is a website designed for the public who would like to participate in exercise activities as part of a group and request guidance and tips from licensed professionals.
+![Site Mockup](/assets/images/site.mockup.png "Site Mockup")
 ---
 # User Stories
 ## First Time Visitor
