@@ -1,7 +1,7 @@
 # ProjectOne
 
 Crossfit website is a website designed for the public who would like to participate in exercise activities as part of a group and request guidance and tips from licensed professionals.
-![Site Mockup](/assets/images/site.mockup.png "Site Mockup")
+![Site Mockup](/Assets/images/site.mockup.png "Site Mockup")
 ---
 # User Stories
 ## First Time Visitor
@@ -78,24 +78,24 @@ The form completion page will thank the user for registering interest in one of 
 # Design
 ## Wireframes
 ### Landing Page
-![Landing Page Wireframe](/assets/images/index.wireframe.png "Home page wireframe")
+![Landing Page Wireframe](/Assets/images/index.wireframe.png "Home page wireframe")
 
-![Landing Page Wireframe Breakpoint 1](/assets/images/index.bp1.wireframe.png "Home page wireframe breakpoint 1")
+![Landing Page Wireframe Breakpoint 1](/Assets/images/index.bp1.wireframe.png "Home page wireframe breakpoint 1")
 
-![Landing Page Wireframe Breakpoint 2](/assets/images/index.bp2.wireframe.png "Home page wireframe breakpoint 2")
+![Landing Page Wireframe Breakpoint 2](/Assets/images/index.bp2.wireframe.png "Home page wireframe breakpoint 2")
 ### Meet the PT Page
-![Meet the PT's Wireframe](/assets/images/meet.the.pts.wireframe.png "Meet the PT's Wireframe")
+![Meet the PT's Wireframe](/Assets/images/meet.the.pts.wireframe.png "Meet the PT's Wireframe")
 
-![Meet the PT's Wireframe Breakpoint 1](/assets/images/meet.the.pts.bp1.wireframe.png "Meet the PT's Wireframe breakpoint 1")
+![Meet the PT's Wireframe Breakpoint 1](/Assets/images/meet.the.pts.bp1.wireframe.png "Meet the PT's Wireframe breakpoint 1")
 
-![Meet the PT's Wireframe Breakpoint 2](/assets/images/meet.the.pts.bp2.wireframe.png "Meet the PT's Wireframe breakpoint 2")
+![Meet the PT's Wireframe Breakpoint 2](/Assets/images/meet.the.pts.bp2.wireframe.png "Meet the PT's Wireframe breakpoint 2")
 
 ### Find a class page
-![Find a Class Wireframe](/assets/images/find.a.class.wireframe.png "Find a Class Wireframe")
+![Find a Class Wireframe](/Assets/images/find.a.class.wireframe.png "Find a Class Wireframe")
 
-![Find a Class Wireframe Breakpoint 1](/assets/images/find.a.class.bp1.wireframe.png "Find a Class Wireframe breakpoint 1")
+![Find a Class Wireframe Breakpoint 1](/Assets/images/find.a.class.bp1.wireframe.png "Find a Class Wireframe breakpoint 1")
 
-![Find a Class Wireframe Breakpoint 2](/assets/images/find.a.class.bp2.wireframe.png "Find a Class Wireframe breakpoint 2")
+![Find a Class Wireframe Breakpoint 2](/Assets/images/find.a.class.bp2.wireframe.png "Find a Class Wireframe breakpoint 2")
 ### 404 Page
 Upon typing in an invalid link, a 404 page is returned by the website.
 ### Form confirmation
@@ -138,7 +138,7 @@ The website is responsive on all screen sizes on both Chrome and Firefox.
 The wave extension was used to provide statistics based on the accessibility of the site. The wave extension purports 0 errors in contrast or structural accessibility.
 
 # Functional Testing
-![Testing File](/assets/images/testing.file.png "Testing File")
+![Testing File](/Assets/images/testing.file.png "Testing File")
 
 # Validation Testing
 ## HTML validator
