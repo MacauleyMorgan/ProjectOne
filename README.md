@@ -96,6 +96,7 @@ The form completion page will thank the user for registering interest in one of 
 ![Find a Class Wireframe Breakpoint 1](/Assets/images/find.a.class.bp1.wireframe.png "Find a Class Wireframe breakpoint 1")
 
 ![Find a Class Wireframe Breakpoint 2](/Assets/images/find.a.class.bp2.wireframe.png "Find a Class Wireframe breakpoint 2")
+
 ### 404 Page
 Upon typing in an invalid link, a 404 page is returned by the website.
 ### Form confirmation
