@@ -127,6 +127,10 @@ footer{
     padding: 0 15px 15px 15px ;
 }
 
+.card-text{
+    margin-bottom: 50px;
+}
+
 /* Meet the PT's */
 
 .trainer-card{
@@ -304,6 +308,9 @@ table a{
     .newsletter input{
         text-align: center;
         width: 85%;
+    }
+    .card-text{
+        margin-bottom: 0px;
     }
 }
 
