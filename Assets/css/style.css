@@ -1,35 +1,36 @@
 /* General Styles */
-html{
-    background-color:#3C4A3E;
+html {
+    background-color: #3C4A3E;
     font-family: 'Roboto', sans-serif;
-    
-}
-.uppercase {
-text-transform: uppercase;
+
 }
 
-body{
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
     background-color: #fafafa;
     border-radius: 10px;
 }
 
 /* Navigation Items */
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     background-color: #16db65;
     box-shadow: black 1px 1px 5px;
-    border-radius:10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
-#Title{
+#company-title {
     text-shadow: 0px 0px 3px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
-.logo{
+.logo {
     padding-top: 1px;
     width: 30%;
     height: 80px;
@@ -40,40 +41,40 @@ header{
     display: flex;
 }
 
-.nav-item{
-list-style: none;
-margin-inline: 0.7rem;
+.nav-item {
+    list-style: none;
+    margin-inline: 0.7rem;
 }
 
 .navigation a {
     margin-inline: 1ch;
     text-decoration: none;
-    padding:0.5rem;
-    font-size:1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
     color: #000000;
     font-weight: 600;
 }
 
-.navigation a:hover{
+.navigation a:hover {
     box-shadow: black 0px 0px 5px 2px;
     border-radius: 5px;
 }
 
 /* Contents */
 
-.hero-image{
+.hero-image {
     height: 500px;
-    width:100%;
+    width: 100%;
 }
 
-#Pricing{
+#pricing {
     position: relative;
     display: flex;
     justify-content: space-around;
 }
 
-.card{
-    margin:-100px;
+.card {
+    margin: -100px;
     height: 200px;
     width: 25%;
     background-color: #16db65;
@@ -83,18 +84,18 @@ margin-inline: 0.7rem;
     padding: 2px;
 }
 
-.card p{
+.card p {
     padding: 5px;
     height: 30px;
     font-size: 0.8rem;
 }
 
-.card h2{
+.card h2 {
     font-size: 1.2rem;
 }
 
-#future-button{
-    color:#3C4A3E;
+#future-button {
+    color: #3C4A3E;
     background-color: #fafafa;
     border-radius: 5px;
     box-shadow: 0 0 5px 0;
@@ -103,7 +104,7 @@ margin-inline: 0.7rem;
     margin: auto;
 }
 
-.Location{
+.location {
     text-align: center;
     margin-top: -10px;
     padding-top: 110px;
@@ -111,92 +112,93 @@ margin-inline: 0.7rem;
 
 }
 
-.Location h2{
+.location h2 {
     text-align: center;
     font-size: 40px;
 }
 
-ul{
-    margin-top: 25px;;
+ul {
+    margin-top: 25px;
+    ;
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-footer{
-    padding: 0 15px 15px 15px ;
+footer {
+    padding: 0 15px 15px 15px;
 }
 
-.card-text{
+.card-text {
     margin-bottom: 50px;
 }
 
 /* Meet the PT's */
 
-.trainer-card{
+.trainer-card {
     background: rgba(0, 0, 0, 0.05);
     width: 75%;
     margin-left: 12.5%;
     box-shadow: 0 0 2px 0px;
     border-radius: 5px;
-    padding:0.5%;
+    padding: 0.5%;
     margin-top: 10px;
     text-align: center;
 }
 
-.content-title{
+.content-title {
     text-align: center;
-    font-size:30px;
+    font-size: 30px;
     text-shadow: 0 0 1px;
 }
 
-.trainer-info{
+.trainer-info {
     display: flex;
     text-align: justify;
     width: 95%;
-    margin-inline:2.5%;
+    margin-inline: 2.5%;
 }
 
-.trainer-image{
+.trainer-image {
     width: 30%;
     margin: auto;
 }
 
-.trainer-info p{
+.trainer-info p {
     padding-inline: 5%;
     font-size: 1.05rem;
 }
 
-.fac{
-    width:75%;
+.fac {
+    width: 75%;
     text-align: justify;
-    margin-left:12.5%;
+    margin-left: 12.5%;
 }
 
-table{
-    margin:auto;
+table {
+    margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 55%;
     text-align: center;
 }
 
-td{
+td {
     padding-top: 10px;
 }
 
-table a{
+table a {
     text-decoration: none;
-    background:#16db65;
+    background: #16db65;
     border-radius: 3px;
     padding: 5px;
-    color:#3C4A3E;
+    color: #3C4A3E;
     font-weight: 600;
     box-shadow: 0 0 1px 0;
     font-size: 0.9rem;
 }
 
-.confirmation{
+.confirmation {
     text-align: center;
     padding: 50px;
     font-size: 1.5rem;
@@ -204,7 +206,7 @@ table a{
 
 }
 
-.return{
+.return {
     text-decoration: none;
     background-color: #16db65;
     padding: 10px;
@@ -214,132 +216,165 @@ table a{
     font-size: 1.2rem;
 }
 
-.newsletter{
+.newsletter {
     text-align: center;
 }
 
-.newsletter input{
+.newsletter input {
     margin: 5px 15px;
 }
-@media screen and (max-width:800px){
-    #Pricing{
-        display:block;
+
+#external {
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+    #pricing {
+        display: block;
     }
-    .card{
-        margin:1%;
+
+    .card {
+        margin: 1%;
         width: 97.5%;
-        height:auto;
+        height: auto;
         padding-bottom: 2%;
     }
-    .card p{
+
+    .card p {
         height: auto;
     }
-    .hero-image{
-        height:200px;
+
+    .hero-image {
+        height: 200px;
     }
-    .nav-item{
+
+    .nav-item {
         margin: auto;
     }
-    .Location{
+
+    .location {
         padding-top: 0;
-        padding-inline:5px;
+        padding-inline: 5px;
     }
-    .Location ul{
-        padding-inline:0;
+
+    .location ul {
+        padding-inline: 0;
     }
-    .trainer-card{
-        width:auto;
-        margin:10px 10px;
+
+    .trainer-card {
+        width: auto;
+        margin: 10px 10px;
     }
-    .trainer-card p{
+
+    .trainer-card p {
         font-size: 0.9rem;
         font-weight: 500;
     }
 
-    #Title{
+    #company-title {
         margin-left: 20px;
     }
-    .block-button{
-        display:block;
+
+    .block-button {
+        display: block;
     }
-    table{
-        width:95%;
+
+    table {
+        width: 95%;
         font-size: 0.8rem;
     }
-    #future-button{
+
+    #future-button {
         margin: 0 auto;
     }
 }
 
 
-@media screen and (max-width:610px){
-    header{
-        display:block;
-        height:auto;
+@media screen and (max-width:610px) {
+    header {
+        display: block;
+        height: auto;
     }
-    .logo{
+
+    .logo {
         text-align: center;
         width: 100%;
-        height:40px;
+        height: 40px;
         margin-top: 0px;
     }
-    .navigation{
-        padding-inline:0;
+
+    .navigation {
+        padding-inline: 0;
         display: block;
         text-align: center;
         padding-block: 10px;
         letter-spacing: 0.05rem;
     }
-    .trainer-card p{
+
+    .trainer-card p {
         font-size: 0.75rem;
     }
-    .Location{
+
+    .location {
         font-size: 0.8rem;
     }
-    .Location h2{
+
+    .location h2 {
         font-size: 1.8rem;
     }
-    header{
+
+    header {
         height: 150px;
     }
-    .newsletter label{
-        display:block;
+
+    .newsletter label {
+        display: block;
     }
-    .newsletter input{
+
+    .newsletter input {
         text-align: center;
         width: 85%;
     }
-    .card-text{
+
+    .card-text {
         margin-bottom: 0px;
     }
 }
 
-@media screen and (max-width:510px){
+@media screen and (max-width:510px) {
 
-    .trainer-info{
-    display:block;
-    }
-    .trainer-image{
-        width: 100%;
-    }
-    .Location ul{
+    .trainer-info {
         display: block;
     }
-    .card{
+
+    .trainer-image {
+        width: 100%;
+    }
+
+    .location ul {
+        display: block;
+    }
+
+    .card {
         margin-bottom: 5px;
         font-size: 0.8rem;
 
     }
-    .navigation a{
+
+    .navigation a {
         padding: 0.2rem;
     }
-    .nav-item{
+
+    .nav-item {
         margin-top: 5px;
     }
-    .navigation a:hover{
+
+    .navigation a:hover {
         box-shadow: none;
     }
-    footer{
-        font-size: 0.6rem;;
+
+    footer {
+        font-size: 0.6rem;
+        ;
     }
 }
